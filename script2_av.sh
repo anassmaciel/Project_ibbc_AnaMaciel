@@ -16,9 +16,9 @@ mkdir -p "$RAW_DATA" "$TRIMS" "$LOGS" \
          "$RESULTS/raw_fastqc" "$RESULTS/trim_fastqc" "$RESULTS/multiqc"
 
 ### Create samples2.txt
-echo "[INFO] Gerando samples2.txt a partir de $INPUT_DIR..."
+echo "[INFO] Generating samples2.txt from $INPUT_DIR..."
 if ! ls "$INPUT_DIR"/*.fastq.gz >/dev/null 2>&1; then
-    echo "[ERROR] Não foram encontrados ficheiros .fastq.gz em $INPUT_DIR"
+    echo "[ERROR]  No .fastq.gz files were found in $INPUT_DIR"
     exit 1
 fi
 
