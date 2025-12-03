@@ -42,6 +42,6 @@ In order the script work is necessary have the Input directory: ~/aulas_IBBC/Exa
 **Script 3 - script3_av.sh**  
 # Run the script3_av.sh (bash script3_av.sh)     
 #Archives the results and logs for easy sharing or backup.  
-Creates a compressed tarball named <MY_NAME>_results.tar.gz containing:
+Creates a compressed tarball named <MY_NAME>_results.zip containing:
 -results folder (QC reports and summaries)
 -logs folder (processing logs)
